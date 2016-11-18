@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maker Party Week Campinas 2016 - Publique uma obra abertamente licenciada na web! ;-)</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="prefetch" type="application/l10n" href="locales/locales.ini" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  </head>
+  <body>
+
+  <section class="container">
+  <span class="tab tab-active" id="tab-welcome">Welcome</span>
+  <span class="tab tab-inactive" id="tab-camera">Camera</span>
+  <span class="tab tab-inactive" id="tab-share">Share</span>
+    <article id="welcome" class="row mt centered frame">
+      <article class="col-lg-12">
+          <br>
+
+          <h1 data-l10n-id='header-title'></h1>
+          <br>
+          <p data-l10n-id='header-intro'></p>
+          <br>
+          <p data-l10n-id='header-party'></p>
+          <br>
+          <p class="hashtag-orange"><span data-l10n-id='hashtag'></span></p>
+          <img src="media/images/photo-camera.png" id="takephoto">
+      </article>
+    </article><!-- /row -->
+    <article id="photo" class="row mt centered frame">
+      <article class="col-lg-12">
+        <div id="timers">
+          <span id="shorttimer">
+          <img src="media/images/timer.png" class="timer"><p class="timer-text" data-l10n-id='timer-3'></p>
+          </span>
+          <span id="mediumtimer">
+          <img src="media/images/timer.png" class="timer"><p class="timer-text" data-l10n-id='timer-5'></p>
+          </span>
+          <span id="longtimer">
+          <img src="media/images/timer.png" class="timer"><p class="timer-text" data-l10n-id='timer-10'></p>
+          </span>
+        </div>
+        <div id="controls">
+          <span id="retake">
+          <img src="media/images/again.png" class="timer"><p class="timer-text" data-l10n-id='retake'></p>
+          </span>
+          <span id="share">
+          <img src="media/images/twitter.png" class="timer"><p class="timer-text" data-l10n-id='tweet-it'>Tweet isso!</p>
+          </span>
+        </div>
+        <div id="videocontainer">
+          <video id="video"></video>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="adjective" hidden="true">
+          <select id="myfirefox">
+            <option value="CC Zero" selected >CC Zero</option>
+            <option value="CC BY">CC BY</option>
+            <option value="CC BY-SA">CC BY-SA</option>
+            <option value="CC BY-ND">CC BY-ND</option>
+            <option value="CC BY-NC">CC BY-NC</option>
+            <option value="CC BY-NC-SA">CC BY-NC-SA</option>
+            <option value="CC BY-NC-ND">CC BY-NC-ND</option>
+          </select>
+        </div>
+      </article>
+    </article><!-- /row -->
+    <article id="twitter" class="row mt centered frame">
+      <article class="col-lg-12">
+        <h1 data-l10n-id='share-title'></h1>
+        <span id="waiting-upload" data-l10n-id='share-wait'></span>
+        <span id="completed-upload">
+          <p id="readytoshare" data-l10n-id='share-ready'></p>
+          <img src="media/images/twitter.png" alt="Share on Twitter" id="twittershare">
+          <p id="share-elsewhere" data-l10n-id='share-elsewhere'><a href="" id="imgur"></a></p>
+        </span>
+      </article>
+  </section>
+
+
+
+  <!-- http://www.freesound.org/people/thecheeseman/sounds/51360/ -->
+  <audio src="media/audio/snap.wav"></audio>
+  <script src="js/l10n.js"></script>
+  <script src="js/app.js"></script>
+
+  </body>
+</html>

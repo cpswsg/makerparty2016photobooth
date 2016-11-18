@@ -1,0 +1,242 @@
+
+html {
+    color: #fff;
+    font-family: "Open Sans", helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../media/images/MakerPartyWallpaper-1-2560x1440.jpg);
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    background-size: cover;
+}
+
+.tab {
+    float: left;
+    position: relative;
+    top:24px;
+    left:10px;
+    width: 153px;
+    height: 41px;
+    text-indent: 48px;
+    line-height: 37px;
+}
+
+.tab-active {
+    background-image: url(../media/images/tab-active.png);
+    z-index: 100;
+}
+
+.tab-inactive {
+    background-image: url(../media/images/tab-inactive.png);
+    z-index: 1;
+}
+
+#takephoto {
+    position: relative;
+    top: 50px;
+}
+
+.frame {
+    border-radius: 2px;
+    border: 10px white solid;
+    min-height: 750px;
+    min-width: 1100px;
+    border-radius: 2px;
+    border: 10px white solid;
+    background-color: white;
+}
+
+h1 {
+    color: #00AFB5;
+    font-size: 60px;
+}
+
+p {
+   color: #4D4E53;
+   font-size: 38px;
+   line-height: 1.3em;
+}
+
+#photo {
+    display: none;
+}
+
+#video {
+    margin-top: 20px;
+}
+
+#videocontainer{
+    margin-top: 113px;
+}
+
+#myfirefox {
+    position: relative;
+    bottom: 8px;
+    left: 165px;
+    width: 215px;
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 28px;
+    background-color: #2293D1;
+    color: #FFFFFF;
+    border: 0 !important;
+
+}
+
+#controls {
+    display: none;
+}
+
+#waiting-upload {
+    color: #4D4E53;
+    font-size: 28px;
+    line-height: 1.3em;
+    position: relative;
+    top:250px;
+}
+
+#readytoshare{
+    margin-top: 60px;
+}
+
+#share-elsewhere{
+    margin-top: 100px;
+}
+
+#twittershare{
+    margin-top: 80px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 65px;
+	margin-bottom: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hashtag-orange {
+    color: #00AFB5 !important;
+}
+
+.timer {
+    width: 64px;
+    height: 64px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.timer-text{
+    font-family: "Open Sans", helvetica, sans-serif;
+    color: #E66000 !important;
+    font-size: 36px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+/* Transitions */
+
+.intro #welcome {
+    display: block;
+}
+
+.intro #photo {
+    display: none;
+}
+
+.intro #canvas {
+    display: none;
+}
+
+.intro #timers {
+    display: none;
+}
+
+.intro #twitter {
+    display: none;
+}
+
+.picture #photo {
+    display: block;
+
+}
+.picture #canvas {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 248px;
+}
+
+.picture #timers {
+    display: block;
+}
+
+.picture #welcome {
+    display: none;
+}
+
+.picture #twitter {
+    display: none;
+}
+
+.reviewing #photo{
+    display: block;
+}
+
+.reviewing #canvas {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 248px;
+}
+
+.reviewing #welcome {
+    display: none;
+}
+
+.reviewing #controls{
+    display: block;
+    margin-left: 234px;
+}
+
+.reviewing #twitter {
+    display: none;
+}
+
+.sharing #welcome {
+    display: none;
+}
+
+.sharing #photo {
+    display: none;
+}
+
+.sharing #completed-upload{
+    display: none;
+}
+.sharing #twitter {
+    display: block;
+}
+
+.uploaded #welcome{
+    display: none;
+}
+
+.uploaded #photo{
+    display: none;
+}
+
+.uploaded #twitter {
+    display: block;
+}
+
+.uploaded #waiting-upload{
+    display: none;
+}
